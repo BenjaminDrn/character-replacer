@@ -153,12 +153,16 @@ form .replacer_text_container .btn_submit_settings {
   display: flex;
   align-items: center;
   font-size: 20px;
-  padding: 8px;
+  padding: 10px;
   border-radius: 8px;
   border: 0;
   background: #5C7DFF;
   color: #F7F7F7;
   cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.result_container .btn_copy.copied {
+  background: #00C853;
 }
 
 footer {

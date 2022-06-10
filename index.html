@@ -5,39 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Character Replacer</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-
     <header class="header">
         <h1>Character Replacer</h1>
         <a href="https://github.com/BenjaminDrn/character-replacer" target="_blank"><i class='bx bxl-github'></i></a>
     </header>
-
     <main>
         <form action="">
-            <input type="text" name="old_char" id="character" placeholder="String/character to replace (e,f)">
-            <input type="text" name="new_char" id="replacement" placeholder="Substitute string/character (e,f)">
+            <input type="text" name="old_char" id="character" placeholder="String/character to replace (a,b...)">
+            <input type="text" name="new_char" id="replacement" placeholder="Substitute string/character (c,d...)">
 
             <div class="replacer_text_container">
                 <textarea name="" id="text-container" class="text_container" cols="30" rows="10" placeholder="Text"></textarea>
                 <button type="submit" id="submit" class="btn_submit_settings">submit</button>
             </div>
         </form>
-
         <div class="result_container">
             <p class="text_container" id="text-result"></p>
             <button class="btn_copy" id="copy"><i class='bx bx-copy-alt'></i></button>
         </div>
     </main>
-
     <footer>
         <p>Copyright Benjamin Drouin © 2022</p>
     </footer>
-
     <script src="script.js"></script>
 </body>
 
